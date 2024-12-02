@@ -1,6 +1,6 @@
 # ChiffrTools
 
-ChiffrTools is a Swift package that provides utilities for cryptographic operations, random data generation, image hashing, and lightweight encryption/decryption using XOR. This package is designed for developers seeking simple and efficient cryptographic tools in their Swift applications.
+ChiffrTools is a Swift package that provides utilities for cryptographic operations, random data generation, image hashing, and lightweight encryption/decryption using XOR. This package supports the Chiffr messaging app on iOS.
 
 ## Features
 
