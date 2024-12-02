@@ -10,18 +10,6 @@ ChiffrTools is a Swift package that provides utilities for cryptographic operati
 - Generate seeded random bytes using the ChaCha algorithm.
 - Lightweight XOR encryption and decryption.
 
-## Installation
-
-### Swift Package Manager (SPM)
-
-Add the following line to your `Package.swift` file:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/your-repo/ChiffrTools.git", from: "1.0.0")
-]
-```
-
 # Documentation
 
 ## Functions
