@@ -1,6 +1,6 @@
 # ChiffrTools
 
-ChiffrTools is a Swift package that provides utilities for cryptographic operations, random data generation, image hashing, and lightweight encryption/decryption using XOR. This package supports the Chiffr messaging app on iOS.
+ChiffrTools is a Swift package that provides utilities for cryptographic operations, random data generation, and lightweight encryption/decryption using XOR and CryptoKits's AES. This package supports the Chiffr messaging app on iOS.
 
 ## Features
 
@@ -35,6 +35,15 @@ ChiffrTools is a Swift package that provides utilities for cryptographic operati
 - **`xorDecrypt(xoredBytes: [UInt8], cipherbytes: Data) -> [UInt8]`**  
   Decrypts XOR-encrypted data.
 
+- **`encryptAES(message: String, using key: SymmetricKey) throws -> [UInt8] `**  
+  Encrypts a String with AES using a given SymmetricKey.
+  
+- **`decryptAES(encryptedData: Data, using key: SymmetricKey) throws -> Data`**  
+  Decrypts Data with AES using a given SymmetricKey.
+
+- **`generateSymmetricKey(keyData: Data) -> SymmetricKey`**  
+  Generates a SymmetricKey to use for AES encryption and decryption.
+  
 ---
 
 ## Tests

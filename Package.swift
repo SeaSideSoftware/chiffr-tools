@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "chiffr-tools",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v16),
+        .macOS(.v10_15)
     ],
     products: [
         .library(
